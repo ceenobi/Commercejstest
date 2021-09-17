@@ -1,0 +1,33 @@
+:root {
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+body{
+font-family: 'Noto Sans', 'Roboto';
+background: var(--mainWhite)!important;
+color: var(--mainDark)!important;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans', 'Roboto';
+}
+
+p {
+font-family: 'Josefin Sans', 'Roboto'!important;
+}
+.text-title{
+  font-family: 'Josefin Sans', 'Roboto';
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+}
+
